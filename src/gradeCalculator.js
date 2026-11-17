@@ -14,7 +14,7 @@ function letterGrade(averageMark) {
   if (averageMark >= 90) return 'A';
   if (averageMark >= 75) return 'B';
   if (averageMark >= 60) return 'C';
-  if (averageMark >= 40) return 'D';
+  if (averageMark >= 35) return 'D';
   return 'F';
 }
 

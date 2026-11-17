@@ -27,8 +27,8 @@ test('letter grade boundaries', () => {
   assert.equal(letterGrade(89.99), 'B');
   assert.equal(letterGrade(75), 'B');
   assert.equal(letterGrade(60), 'C');
-  assert.equal(letterGrade(40), 'D');
-  assert.equal(letterGrade(39.99), 'F');
+  assert.equal(letterGrade(35), 'D');
+  assert.equal(letterGrade(34.99), 'F');
 });
 
 test('class average is the average of student averages', () => {

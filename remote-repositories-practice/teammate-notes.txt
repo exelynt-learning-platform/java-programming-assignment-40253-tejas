@@ -1,0 +1,3 @@
+Teammate notes
+
+- Cloned the repository into a second folder.

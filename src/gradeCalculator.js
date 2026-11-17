@@ -1,5 +1,8 @@
 'use strict';
 
+/** Lowest average that still counts as a pass. */
+const PASS_MARK = 40;
+
 /** Returns the average of a list of marks, rounded to two decimals. */
 function average(marks) {
   if (!Array.isArray(marks) || marks.length === 0) {
@@ -14,7 +17,7 @@ function letterGrade(averageMark) {
   if (averageMark >= 90) return 'A';
   if (averageMark >= 75) return 'B';
   if (averageMark >= 60) return 'C';
-  if (averageMark >= 40) return 'D';
+  if (averageMark >= PASS_MARK) return 'D';
   return 'F';
 }
 

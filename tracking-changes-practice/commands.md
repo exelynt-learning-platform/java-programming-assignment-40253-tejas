@@ -11,3 +11,8 @@
 - git log : show full commit history
 - git log --oneline : show one line per commit
 - git log --stat : show which files each commit changed
+
+## Fixing mistakes
+
+- git restore --staged <file> : unstage a file
+- git commit --amend : fix the last commit

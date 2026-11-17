@@ -18,4 +18,21 @@ function letterGrade(averageMark) {
   return 'F';
 }
 
-module.exports = { average, letterGrade };
+/** Returns the average of the averages of all students. */
+function classAverage(students) {
+  return average(students.map((student) => average(student.marks)));
+}
+
+/** Returns the student with the highest average, or null for an empty list. */
+function topStudent(students) {
+  let best = null;
+  for (const student of students) {
+    const studentAverage = average(student.marks);
+    if (best === null || studentAverage > best.average) {
+      best = { name: student.name, average: studentAverage };
+    }
+  }
+  return best;
+}
+
+module.exports = { average, letterGrade, classAverage, topStudent };

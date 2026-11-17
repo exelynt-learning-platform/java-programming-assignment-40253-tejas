@@ -1,0 +1,4 @@
+Project notes
+
+- Repository is hosted on GitHub.
+- Local copy is on my laptop.

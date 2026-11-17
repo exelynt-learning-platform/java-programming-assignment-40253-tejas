@@ -1,7 +1,7 @@
 'use strict';
 
 /** Lowest average that still counts as a pass. */
-const PASS_MARK = 40;
+const PASS_MARK = 35;
 
 /** Returns the average of a list of marks, rounded to two decimals. */
 function average(marks) {

@@ -1,0 +1,5 @@
+Budget
+
+Train tickets: 1800
+Stay: 6000
+Food: 3000

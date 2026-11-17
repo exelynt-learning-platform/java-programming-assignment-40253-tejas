@@ -3,3 +3,4 @@ Git workflow notes
 1. Edit files in the working directory.
 2. Stage the changes with git add.
 3. Save them with git commit.
+4. Check the result with git status and git log.

@@ -1,0 +1,5 @@
+Practice to-do list
+
+[x] Create a file and commit it
+[x] Modify a file and commit the change
+[ ] View the history with git log

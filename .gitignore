@@ -1,0 +1,27 @@
+# Dependencies (restored with "npm install", never committed)
+node_modules/
+
+# Generated output
+coverage/
+reports/
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak

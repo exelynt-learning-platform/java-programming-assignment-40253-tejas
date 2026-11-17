@@ -1,0 +1,14 @@
+{
+  "name": "grade-tracker",
+  "version": "1.0.0",
+  "description": "Command-line tool that reads student marks from a CSV file and reports averages and grades.",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -17,3 +17,14 @@ git switch git-github-version-control-essentials-for-developers-week1-2
 ```bash
 npm start
 ```
+
+## Input file format
+
+The first line is a header and is ignored. Every other line is a student name followed by one or more marks from 0 to 100:
+
+```text
+name,maths,science,english
+Asha,92,88,95
+```
+
+Lines with a missing name or an invalid mark are skipped and reported.
